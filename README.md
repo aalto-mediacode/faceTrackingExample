@@ -1,2 +1,2 @@
 # faceTrackingExample
-This is a simple example for the ofxFacetracking addon.
+This is a simple example for the ofxFaceTracker addon.
