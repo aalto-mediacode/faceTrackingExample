@@ -31,4 +31,8 @@
 *.out
 *.app
 
-bin/*
+bin/
+
+*.tracker
+*.tri
+*.con
