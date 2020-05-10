@@ -1,5 +1,5 @@
 # faceTrackingTest
-This is a simple example for the ofxFaceTracker addon.
+This is a simple example for the ofxFaceTracker addon. Click the image to watch a video tutorial.
 
 [![ofxFaceTracker Example](http://img.youtube.com/vi/ROb_Dt9gkv8/0.jpg)](http://www.youtube.com/watch?v=ROb_Dt9gkv8 "ofxFaceTracker Example")
 
