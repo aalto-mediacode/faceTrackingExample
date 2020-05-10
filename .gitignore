@@ -1,38 +1,32 @@
-# Prerequisites
-*.d
+# don't push project files
+*.cbp
+*.sln
+*.vcx*
+*.workspace*
+config.make
+Makefile
+*.xcodeproj
+*.plist
+*.xcconfig
+*.suo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+*.depend
+*.layout
+*.mode*v3
+*.pbxuser
+*.app*
+*.DS_*
+*.xcworkspacedata
+xcuserdata/
+project.xcworkspace
 
-# Precompiled Headers
-*.gch
-*.pch
+*.opensdf
+*.sdf
+*.suo
+*.ipch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
+.svn/
+obj/
 bin/
-
-*.tracker
-*.tri
-*.con
+build/
+!data/
