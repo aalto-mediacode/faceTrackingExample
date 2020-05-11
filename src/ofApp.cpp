@@ -4,11 +4,11 @@ using namespace ofxCv;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    //vector<ofVideoDevice> devices = cam.listDevices();
+    vector<ofVideoDevice> devices = cam.listDevices();
     
-    //for(int i=0; i < devices.size(); i++){
-       // ofLogNotice() << devices[i].id << ":" << devices[i].deviceName;
-    //}
+    for(int i=0; i < devices.size(); i++){
+        ofLogNotice() << devices[i].id << ":" << devices[i].deviceName;
+    }
     cam.setDeviceID(2);
     cam.initGrabber(1280, 720);
     
